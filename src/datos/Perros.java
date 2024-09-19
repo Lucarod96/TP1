@@ -1,3 +1,6 @@
+/*
+Dejo esta clase perro como ejemplo de comparador en caso de utilizar un arraylist de tipo perro.
+
 package datos;
 
 import java.util.Comparator;
@@ -47,7 +50,8 @@ public class Perros {
     public static Comparator<Perros> compararRaza = new Comparator<Perros>() {
         @Override
         public int compare(Perros p1, Perros p2) { 
-            return p2.getRaza().compareTo(p1.getRaza());
+            return p1.getRaza().compareTo(p2.getRaza());
         }
     };       
 }
+*/

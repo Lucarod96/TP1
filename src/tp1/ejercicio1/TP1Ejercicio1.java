@@ -14,14 +14,11 @@ import servicioperros.ServicioPerros;
 
 public class TP1Ejercicio1 {
 
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {        
         Scanner leer = new Scanner(System.in);
         ServicioPerros sp = new ServicioPerros();
         sp.agregarPerro();
         sp.mostrarPerros();
-        sp.buscarYEliminarPerro();
-        
-    }
-    
+        sp.buscarYEliminarPerro();       
+    }    
 }
